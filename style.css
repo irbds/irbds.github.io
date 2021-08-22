@@ -1,5 +1,6 @@
 body{
     background-color: #77A0A9;
+    margin: 0 20% 0 20%;
 }
 #igor{
     font-family: cursive;
@@ -23,18 +24,22 @@ body{
 #onde_moro{
     font-style: italic;
 }
-.habilidade_1{
-    font-size: 20px
-}
-.habilidade_2{
-    font-size: 25px
-}
-.habilidade_3{
-    font-size: 30px
-}
-.habilidade_4{
-    font-size: 35px
-}
 .foto_sobre{
     height: 370px;
+}
+
+/* Habilidades */
+.habilidade_1{
+    font-size: 20px;
+    font-family: cursive
+}
+.habilidade_2{
+    font-size: 25px;
+}
+.habilidade_3{
+    font-size: 30px;
+    font-family: arial;
+}
+.habilidade_4{
+    font-size: 35px;
 }
