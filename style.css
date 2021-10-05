@@ -2,44 +2,62 @@ body{
     background-color: #77A0A9;
     margin: 0 20% 0 20%;
 }
-#igor{
+
+a {
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.collum {
+    flex-direction: column;
+}
+
+#indice {
+    justify-content: space-around;
+}
+
+#indice a {
+    padding: 0 30px;
+    background-color: #6F7D8C;
+    border-radius: 4px;
+}
+
+#name {
     font-family: cursive;
     text-align: center;
 }
-#foto{
+
+#foto {
     height: 350px;
-    float: left;
     padding: 10px;
     background-color: #6F7D8C;
 }
-#sobre{
+
+.text_center {
     font-family: sans-serif;
-}
-#sobre_texto{
-    font-family: monospace;
-}
-#nacionalidade{
-    font-style: italic;
-}
-#onde_moro{
-    font-style: italic;
-}
-.foto_sobre{
-    height: 370px;
+    text-align: center;
 }
 
-/* Habilidades */
-.habilidade_1{
-    font-size: 20px;
-    font-family: cursive
+#sobre_texto {
+    font-family: monospace;
 }
-.habilidade_2{
-    font-size: 25px;
+
+#nacionalidade {
+    font-style: italic;
 }
-.habilidade_3{
-    font-size: 30px;
-    font-family: arial;
+
+#onde_moro {
+    font-style: italic;
 }
-.habilidade_4{
-    font-size: 35px;
+
+.foto_sobre {
+    display: flex;
+    height: 370px;
 }
